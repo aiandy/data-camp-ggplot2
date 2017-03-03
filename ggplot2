@@ -1,0 +1,12 @@
+# data-camp-ggplot2
+
+# A scatter plot has been made for you
+ggplot(mtcars, aes(x = wt, y = mpg)) +
+  geom_point()
+
+# Replace ___ with the correct vector
+ggplot(mtcars, aes(x = wt, y = mpg, col =disp)) +geom_point()
+
+# Replace ___ with the correct vector
+ggplot(mtcars, aes(x = wt, y = mpg, size = disp)) +
+  geom_point()
